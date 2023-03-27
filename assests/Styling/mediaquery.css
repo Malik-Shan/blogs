@@ -1,0 +1,197 @@
+/*//////////////////
+     MEDIA QUERY 
+//////////////////*/
+
+
+/*//////////////////
+     Max-Width
+//////////////////*/
+
+/*  1440 */
+@media only screen and (max-width:1440px){
+    .front_banner_container .banner_icons i{
+        font-size:2rem;
+    }
+    }
+    
+    @media only screen and (max-width:1200px){
+        .content-line::after{
+            left:45% !important;
+        }
+    }
+    
+    /*  1024 px */
+    @media only screen and (max-width:1024px){
+        .front_banner_container .banner_icons i{
+            font-size:1.5rem;
+        }
+        .car-text-area{
+            transform:translateY(0%);
+            padding:5px;
+        }
+        .car-heading{
+            margin:0;
+        }
+        .front_banner .banner_icons a:hover::before,
+        .front_banner .banner_icons a:hover::after {
+            display:none;
+    }
+        /* .lpz{
+            padding-left:2em;
+        } */
+        .content-line::after{
+            left:40% !important;
+        }
+        
+    }
+    
+    @media only screen and (max-width:992px){
+        .offcanvas .offcanvas-body .navbar-nav{
+            padding: 0px !important;;
+        }
+        .offcanvas .offcanvas-body .navbar-nav .nav-item .nav-link{
+            margin-left:0px !important;
+            margin-bottom:1em;
+        }
+        .offcanvas .offcanvas-body .navbar-nav .nav-item .nav-link form{
+            margin-left:0px;
+        }
+        .offcanvas .offcanvas-body{
+            padding:2em 1em;
+        }
+        .offcanvas .offcanvas-body .navbar-nav .nav-item{
+            text-align:center;
+            display:block;
+            margin:auto;
+            width:100%;
+        }
+        .offcanvas .offcanvas-body .navbar-nav .search-item{
+            display:flex;
+            justify-content:center;
+        }
+        .top-nav-search-input{
+            width:100% !important;
+        }
+        .top-nav-search-bar{
+            max-width:80% !important;
+            display:block;
+            margin:auto;
+        }
+        .offcanvas-body{
+            text-align:center !important;
+        }
+        .content-line::after{
+            left:45% !important;
+        }
+    }
+
+    /*  768 px  */
+    @media only screen and (max-width: 768px){
+        .news-updates-hanger{
+            left:5% !important;
+            top:-20px !important;
+        }
+        .front_banner .carousel-indicators{
+            display:none;
+        }
+        .header .logo{
+            display:inline-block;
+            margin:auto;
+        }
+        .header .menu_btn{
+            display:inline-block;
+        }
+        .navigation .nav[data-visible="true"]{
+            transform: translateX(0%);
+            transition: transform 300ms ease;
+        }
+        .navigation .nav{
+            position:fixed;
+            inset:0 0 0 40%;
+    
+            display:flex;
+            flex-direction: column;
+            gap:1rem;
+            padding:min(20vh, 8rem) 2em;
+            background: hsla(0, 0%, 0%, .5);
+    
+            transform:translateX(100%);
+        }
+        @supports (backdrop-filter: var(--filter)){
+            .navigation .nav{
+                background: hsla(0, 0%, 0%, .3);
+                backdrop-filter: var(--filter);
+            }
+        }
+        header .banner_icons{
+            display:none;
+        }
+        .newest .newest_heading{
+            color:black;
+        }
+        .card-front{
+            transform:translateY(-30px);
+        }
+        .card-front i{
+            transform:translateY(15px);
+        }
+        .owl-carousel .featured-item:hover .car-text{
+            display:none;
+        }
+        .signup_wrapper:hover .news-updates-hanger{
+            top:-20px;
+        }
+        .news-updates-hanger{
+            top:-20px;
+        }
+        .team_btn_prev{
+            left:5px !important;
+        }
+        
+        .team_btn_next{
+            right:5px !important;
+        }
+        .content-line::after{
+            left:50% !important;
+        }
+
+        
+    }
+
+    @media only screen and (max-width: 425px){
+        .content-line::after{
+            display:none !important;
+        }
+    }
+    @media only screen and (max-width: 320px){
+        .team_btn{
+            padding:.2em .2em !important;
+            background:none !important;
+        }
+    }
+    
+    /*/////////////////////
+        MIN WIDTH
+    /////////////////////*/
+    
+    /* 1440 px */
+    @media only screen and (min-width:1440px){
+        .front_banner_container .banner_icons i{
+            font-size:2.3rem;
+        }
+    }
+    @media all and (min-width: 992px) {
+    
+        .navbar .has-megamenu{position:static!important;}
+        .navbar .megamenu{left:0; width:100%; margin-top:0; border-radius:0; border:0;  }
+    }
+    
+    /* 786 px */
+    @media only screen and (min-width: 768px){
+        .nav .nav_btn{
+            margin-left:.4em;
+        }
+        .lpz{
+            padding-left:0px;
+        }
+    }

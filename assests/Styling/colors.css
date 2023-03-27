@@ -1,0 +1,51 @@
+:root{
+
+    /*  Boady and Sections Theme Colors */
+    --theme-one:#252525;
+    --theme-two:#7aa0da;
+    --theme-three:#0000005f;
+
+    --drop-effect:var(--theme-one);
+
+    /* Random Colors */
+    --color-one:#4474c7;
+    --color-two:#3969a8;
+    --blue-light:#3c91ca;
+    --mute-background:#f2f2f2;
+    --mute-border:hsl(0, 0%, 85%);
+    
+    /*  Basic Buttons Theme Colors */
+    --light-btn:#7aa0da;
+    /* --mustard:#D4B20B; */
+    --mustard:#5869da;
+    --mustard-active:#4050b9;
+    --gradient-theme-text: -webkit-linear-gradient(#7989ec, var(--mustard));
+    --gray:rgb(70, 70, 70);
+
+    /* tags color */
+    --tag-red:rgb(153 27 27);
+    --tag-bg-red:rgb(254 226 226);
+
+    /* Different Hover Colors for the pictures */
+    --danger:#e3363e !important;
+    --baby-pink:#ff7865;
+    --dark-skyblue:#3e6dbf;
+    --yellow-green:#bae84a;
+    --brick-red:#ff7865;
+    --green:#5c9665;
+    --pinkish:#e4406e;
+    --purple-pink:#b25d72;
+    --orange:#ea3c12;
+    --mute-color:hsl(0, 0%, 82%);
+
+    --small-tags:rgba(0, 0, 0, 0.411);
+    --hover-icons:rgb(67, 77, 121);
+    --white:white;
+    --trans-white:rgba(255, 255, 255, 0.418);
+    --hover-gray:hsl(0, 0%, 95%);
+
+    --dark-blue:#252525;
+    --dark-blue-2:#0b2a49;
+
+    --content-box-shadow-1:0 0 10px rgba(0, 0, 0, 0.2);
+}
