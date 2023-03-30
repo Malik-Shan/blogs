@@ -963,7 +963,7 @@ Middle Content Area
 //////////////////*/
 .signup_wrapper{
     position:relative;
-    background: url(../images/feature5.jpg), rgba(0, 0, 0, 0.3);
+    background: url(assests/images/feature5.jpg), rgba(0, 0, 0, 0.3);
     background-blend-mode:multiply;
     background-repeat:none;
     background-size:cover;
@@ -995,12 +995,12 @@ Middle Content Area
 #subscrition::placeholder{
     color:white;
 }
-/* #subscrition:-webkit-autofill,
+#subscrition:-webkit-autofill,
 #subscrition:-webkit-autofill:hover, 
 #subscrition:-webkit-autofill:focus, 
 #subscrition:-webkit-autofill:active{
     -webkit-box-shadow: 0 0 0 30px var(--mustard) inset !important;
-} */
+}
 .news-updates-hanger{
     position:absolute;
     display:block;
