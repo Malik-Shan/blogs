@@ -982,16 +982,25 @@ Middle Content Area
     font-size:1.1em;
     font-weight:lighter;
     color:white !important;
+    
+}
+#footeremail{
+    width:100%; 
+    outline:none; 
+    border:2px solid var(--theme-two); 
+    border-radius:5px;
+    margin-bottom:5px; 
+    padding:.2em .5em;
 }
 #subscrition::placeholder{
     color:white;
 }
-#subscrition:-webkit-autofill,
+/* #subscrition:-webkit-autofill,
 #subscrition:-webkit-autofill:hover, 
 #subscrition:-webkit-autofill:focus, 
 #subscrition:-webkit-autofill:active{
     -webkit-box-shadow: 0 0 0 30px var(--mustard) inset !important;
-}
+} */
 .news-updates-hanger{
     position:absolute;
     display:block;
