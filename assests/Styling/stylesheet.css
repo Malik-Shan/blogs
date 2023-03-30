@@ -963,7 +963,7 @@ Middle Content Area
 //////////////////*/
 .signup_wrapper{
     position:relative;
-    background: url(assests/images/feature5.jpg), rgba(0, 0, 0, 0.3);
+    background: url(../Images/feature5.jpg), rgba(0, 0, 0, 0.3);
     background-blend-mode:multiply;
     background-repeat:none;
     background-size:cover;
