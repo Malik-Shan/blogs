@@ -44,8 +44,8 @@
     --trans-white:rgba(255, 255, 255, 0.418);
     --hover-gray:hsl(0, 0%, 95%);
 
-    --dark-blue:#252525;
-    --dark-blue-2:#0b2a49;
+    --dark-blue:hsl(0, 0%, 15%);
+    --dark-blue-2:hsl(210, 74%, 16%);
 
     --content-box-shadow-1:0 0 10px rgba(0, 0, 0, 0.2);
 }
